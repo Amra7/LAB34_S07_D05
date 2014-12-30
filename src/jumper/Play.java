@@ -11,11 +11,12 @@ public static void main(String[] args) {
 	window.setContentPane(gg);
 	
 	// gg.get window height i width
-	// dodamo ActionListerner na resize-anje prozora, a dodjemo ga kao anaonimu klasu
+	// dodamo ActionListerner na resize-anje prozora, a dodjemo ga kao anonimu klasu
 	
 	window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	window.setVisible(true);
-	window.r // ovjdje nesto resajzati
+//	window.r // ovjdje nesto resajzati
+	gg.requestFocus(false);
 	
 	
 }
